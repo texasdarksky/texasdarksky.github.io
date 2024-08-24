@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "texasdarksky.github.io",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -23,6 +23,9 @@
     "@sveltejs/vite-plugin-svelte": "^3.0.0",
     "@tailwindcss/forms": "0.5.7",
     "@tailwindcss/typography": "0.5.14",
+    "@types/d3": "^7.4.3",
+    "@types/d3-array": "^3.2.1",
+    "@types/d3-scale": "^4.0.8",
     "@types/eslint": "^9.6.0",
     "@types/luxon": "^3.4.2",
     "@types/node": "22.5.0",
@@ -46,6 +49,7 @@
   "type": "module",
   "dependencies": {
     "@floating-ui/dom": "1.6.10",
+    "bits-ui": "^0.21.13",
     "d3-array": "^3.2.4",
     "d3-scale": "^4.0.2",
     "highlight.js": "11.10.0",

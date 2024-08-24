@@ -2,3 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;
+
+
+/* `:root` doesn't work as needs to be a descendant of `:root` where Skeleton defined `--color-*`  */
+body {
+  --theme-color-surface-100: var(--color-surface-50);
+  --theme-color-surface-200: var(--color-surface-100);
+  --theme-color-surface-300: var(--color-surface-200);
+  --theme-color-surface-content: var(--theme-font-color-base);
+
+  html.dark & {
+    --theme-color-surface-100: var(--color-surface-700);
+    --theme-color-surface-200: var(--color-surface-800);
+    --theme-color-surface-300: var(--color-surface-900);
+    --theme-color-surface-content: var(--theme-font-color-dark);
+  }
+}
