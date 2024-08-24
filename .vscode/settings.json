@@ -116,5 +116,8 @@
 		"transition",
 		"width",
 		"zIndex"
-	]
+	],
+	"yaml.schemas": {
+		"https://json.schemastore.org/yamllint.json": "file:///home/nate/projects/amyjackson/texasdarksky.github.io/.github/workflows/deploy.yml"
+	}
 }
