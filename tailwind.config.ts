@@ -15,11 +15,21 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				'surface-100': 'rgb(var(--theme-color-surface-100) / <alpha-value>)',
-				'surface-200': 'rgb(var(--theme-color-surface-200) / <alpha-value>)',
-				'surface-300': 'rgb(var(--theme-color-surface-300) / <alpha-value>)',
-				'surface-content': 'rgb(var(--theme-color-surface-content) / <alpha-value>)',
+				'surface-100': 'rgba(var(--theme-color-surface-100) / 1.0)',
+				'surface-200': 'rgba(var(--theme-color-surface-200) / 1.0)',
+				'surface-300': 'rgba(var(--theme-color-surface-300) / 1.0)',
+				'surface-content': 'rgba(var(--theme-color-surface-content) / 0.1)',
 			},
+			// borderRadius: {
+			// 	lg: "var(--radius)",
+			// 	md: "calc(var(--radius) - 2px)",
+			// 	sm: "calc(var(--radius) - 4px)"
+			// },
+			// fontFamily: {
+			// 	// sans: ["sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"]
+			// 	sans: ['Graphik', 'sans-serif'],
+      		// 	serif: ['Merriweather', 'serif'],
+			// },
 		},
 	},
 	plugins: [
